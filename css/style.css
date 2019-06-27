@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(7, 6, 6, 0.82);
+    color: #fff;
+}
+
+nav {
+    border-bottom: solid 5px #3e94de;
+}
+
+.dark-overlay {
+    background-color: rgba(7, 7, 7, 0.61);
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    min-height: 700px;
+    
+}
+
+#home-section {
+    background:url('../img/home.jpg') no-repeat center top fixed;
+    top: 0;
+    min-height: 700px;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.home-inner {
+    padding-top: 150px;
+    width: 100%;
+}
+
+
+#explore-section {
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    
+}
+
+#icon {
+    background-color: #fff;
+    color: #15a1cb;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#create-section #explore-section #share-section .fa {
+        background-color: #333;
+        color: #fff;
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+#explore-head-section {
+    background-color: #04a9e6;
+    width: 100%;
+}
+
+#explore-section {
+    background-color: #ffffff;
+    color: #333;
+    width: 100%;
+}
+
+#create-head-section {
+    background-color: #04a9e6;
+    width: 100%;
+}
+
+#create-section {
+    background-color: #ffffff;
+    color: #333;
+}
+
+#share-head-section {
+    background-color: #04a9e6;
+    width: 100%;
+}
+
+#share-section {
+    background-color: #ffffff;
+    color: #333;
+    width: 100%;
+}
+
+#contactmodal {
+    color: #333;
+    width: 100%;
+}
+
+
+@media(max-width:576px){
+    nav .container{
+        width:100%;
+    }
+}
